@@ -1,7 +1,7 @@
-variable "zone" 	     { default = "us-east1-b" }
+variable "zone" 	     { default = "europe-west2-a" }
 variable "tags" 	     { default = ["sample", "sample1", "sample2"] }
-variable "image" 	     { default = "ubuntu-1404-trusty-v20170703" }
-variable "machine_type"      { default = "n1-standard-1" }
+variable "image" 	     { default = "ubuntu 1404 LTS" }
+variable "machine_type"      { default = "g1-small" }
 
 resource "google_compute_instance" "sample" {
     count = "${length(var.tags)}"

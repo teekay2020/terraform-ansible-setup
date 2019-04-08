@@ -1,4 +1,4 @@
-variable "google_project_id" { default = "gkr-demo" }
+variable "google_project_id" { default = "lithe-cyclist-225808" }
 variable "account_file"      { default = "account.json" }
-variable "region" 	     { default = "us-east1" }
+variable "region" 	     { default = "europe-west2-a" }
 
